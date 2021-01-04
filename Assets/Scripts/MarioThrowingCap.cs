@@ -47,13 +47,13 @@ public class MarioThrowingCap : MonoBehaviour
         Sequence throwSequence = DOTween.Sequence();
 
         //Throw the Cap
-        throwSequence.Append(Cap.DOMove(transform.position + transform.forward * 5, throwDuration));
+        throwSequence.Append(Cap.DOMove(transform.position + transform.forward * 15, throwDuration));
 
         //Scale Cap
         throwSequence.Join(Cap.DOScale(1.1f, throwDuration));
 
         //Mario Spinning
-        throwSequence.Join(Mario.DORotate(new Vector3(0, 360f, 0), spinningDuration, RotateMode.FastBeyond360));
+        //throwSequence.Join(Mario.DORotate(new Vector3(0, 360f, 0), spinningDuration, RotateMode.FastBeyond360));
 
     }
 
@@ -77,7 +77,8 @@ public class MarioThrowingCap : MonoBehaviour
 
         CapEffect.Stop();
         Spinning = false;
-        Cap.DORotate(new Vector3(24f, 0f, 10f), 0f);
+        //Cap.DORotate(new Vector3(24f, 0f, 10f), 0f);
+        Cap.localRotation = Quaternion.identity;
     }
 
 
