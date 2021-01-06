@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db7f0508-84b4-42c5-b57a-57c8d027c0a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Cameras/Scripts/FreeLookCam.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cameras/Scripts/FreeLookCam.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Coin.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Coin.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GOOMBA.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GOOMBA.fbx.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3D/AnimationTools/pasted__polySurface7668.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3D/AnimationTools/pasted__polySurface7668.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Material 4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Material 4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Material 5.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Material 5.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.mario3.0/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.mario3.0/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.mario3.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.mario3.0/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Mario.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Mario.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShineEmpty.dae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ShineEmpty.dae.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/newthirdperson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/newthirdperson.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +29,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/playermovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Cameras/Scripts/FreeLookCam.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/world.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/newthirdperson.cs" />
       </list>
     </option>
   </component>
@@ -73,7 +78,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609854167077</updated>
-      <workItem from="1609854174677" duration="873000" />
+      <workItem from="1609854174677" duration="874000" />
+      <workItem from="1609937716476" duration="815000" />
     </task>
     <servers />
   </component>

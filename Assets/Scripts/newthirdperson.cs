@@ -23,10 +23,13 @@ public class newthirdperson : MonoBehaviour
 
     private bool _canDoubleJump = false;
 
+    public Animator _anim;
+      
     // Start is called before the first frame update
     void Start()
     {
         _controller = GetComponent<CharacterController>();
+
     }
 
     // Update is called once per frame
