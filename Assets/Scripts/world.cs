@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Cameras;
-
+/*
 public class world : MonoBehaviour
 {
     public GameObject[] characters;
@@ -30,3 +30,4 @@ public class world : MonoBehaviour
         }
     }
 }
+*/

@@ -21,7 +21,6 @@ namespace UnityStandardAssets.Cameras
 		private Quaternion m_PivotTargetRot;
 		private Quaternion m_TransformTargetRot;
 
-		public Transform m_Target;
         protected override void Awake()
         {
             base.Awake();
