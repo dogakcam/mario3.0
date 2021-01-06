@@ -21,13 +21,13 @@ public class MarioThrowingCap : MonoBehaviour
     [Space]
     [Header("Public bools")]
     public bool Spinning;
-    //public bool capThrow;
     private void Start()
     {
         trailRenderer.enabled = false;
     }
     void Update()
     {
+
         if ( Input.GetKey(KeyCode.H)) // H Letter
         {
 
@@ -42,7 +42,8 @@ public class MarioThrowingCap : MonoBehaviour
             ReturnCap();
         }
 
-        if(Spinning){
+        if(Spinning)
+        {
 
             Cap.transform.Rotate (0f,CapSpinningSpeed,0f);
         }
@@ -50,7 +51,8 @@ public class MarioThrowingCap : MonoBehaviour
     }
     
 
-    void ThrowingCap(){
+    void ThrowingCap()
+    {
 
         Sequence throwSequence = DOTween.Sequence();
 
@@ -58,7 +60,7 @@ public class MarioThrowingCap : MonoBehaviour
         throwSequence.Append(Cap.DOMove(transform.position + transform.forward * 25, throwDuration));
 
         //Scale Cap
-        throwSequence.Join(Cap.DOScale(2.1f, throwDuration));
+        throwSequence.Join(Cap.DOScale(1.6f, throwDuration));
 
         //Mario Spinning
         //throwSequence.Join(Mario.DORotate(new Vector3(0, 360f, 0), spinningDuration, RotateMode.FastBeyond360));
@@ -66,7 +68,8 @@ public class MarioThrowingCap : MonoBehaviour
 
     }
 
-    void ReturnCap(){
+    void ReturnCap()
+    {
 
         Sequence ReturnSequence = DOTween.Sequence();
 
