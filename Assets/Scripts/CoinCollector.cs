@@ -7,7 +7,7 @@ public class CoinCollector : MonoBehaviour
 	public int coin = 0;
 
 
-	 void OnTriggerEnter(Collider other)
+	void OnTriggerEnter(Collider other)
 	{
 		if (other.CompareTag("Coin")) // Detection of Coin
 		{
@@ -17,6 +17,6 @@ public class CoinCollector : MonoBehaviour
 
 			Destroy(other.gameObject); //Destroy Coin
 
-        }
+		}
 	}
 }

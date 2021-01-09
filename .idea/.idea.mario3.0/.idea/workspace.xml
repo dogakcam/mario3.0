@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="db7f0508-84b4-42c5-b57a-57c8d027c0a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/3D/AnimationTools/pasted__polySurface7668.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3D/AnimationTools/pasted__polySurface7668.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Material 4.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Material 4.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Material 5.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Material 5.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.mario3.0/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.mario3.0/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.mario3.0/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.mario3.0/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.mario3.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.mario3.0/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BridgeDisable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BridgeDisable.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Mario.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Mario.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/newthirdperson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/newthirdperson.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoinCollector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoinCollector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,13 +38,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/characterpossesion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Moon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/frog.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/playermovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Cameras/Scripts/FreeLookCam.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/world.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/newthirdperson.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/frog.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/frogactive.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/possesion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/world.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/characterpossesion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoinCollector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Moon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreSystem.cs" />
       </list>
     </option>
   </component>
@@ -79,7 +106,11 @@
       <option name="presentableId" value="Default" />
       <updated>1609854167077</updated>
       <workItem from="1609854174677" duration="874000" />
-      <workItem from="1609937716476" duration="815000" />
+      <workItem from="1609937716476" duration="932000" />
+      <workItem from="1610098182178" duration="262000" />
+      <workItem from="1610190064432" duration="407000" />
+      <workItem from="1610190541946" duration="1376000" />
+      <workItem from="1610192510926" duration="1736000" />
     </task>
     <servers />
   </component>
@@ -88,6 +119,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

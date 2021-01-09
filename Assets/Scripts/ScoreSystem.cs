@@ -8,10 +8,13 @@ public class ScoreSystem : MonoBehaviour
 {
     public GameObject ScoreText;
     public static int theScore;
-
-    // Update is called once per frame
+    public GameObject MoonText;
+    public static int moonScore;
+   
+    
     void Update()
     {
-        ScoreText.GetComponent<Text>().text = "Coin: " + theScore;
+        ScoreText.GetComponent<Text>().text = " Coin: " + theScore;
+        MoonText.GetComponent<Text>().text = " moon: " + moonScore;
     }
 }

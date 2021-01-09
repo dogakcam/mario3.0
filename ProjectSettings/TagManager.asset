@@ -8,7 +8,8 @@ TagManager:
   - enemy
   - Coin
   - Cap
-  - Moon
+  - frog
+  - moon
   layers:
   - Default
   - TransparentFX

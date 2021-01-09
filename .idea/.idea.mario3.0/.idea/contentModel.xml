@@ -5,7 +5,6 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="BridgeDisable.cs" t="Include" />
         <e p="Cameras" t="Include">
           <e p="CameraGuidelines.txt" t="Include" />
           <e p="Scripts" t="Include">
@@ -42,17 +41,23 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="BridgeDisable.cs" t="Include" />
+          <e p="characterpossesion.cs" t="Include" />
           <e p="Coin.cs" t="Include" />
           <e p="CoinCollector.cs" t="Include" />
           <e p="damage.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="EnemyPatrol.cs" t="Include" />
+          <e p="frog.cs" t="Include" />
+          <e p="frogactive.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="MarioThrowingCap.cs" t="Include" />
+          <e p="Moon.cs" t="Include" />
           <e p="newthirdperson.cs" t="Include" />
           <e p="playerhealth.cs" t="Include" />
           <e p="PlayerManager.cs" t="Include" />
+          <e p="possesion.cs" t="Include" />
           <e p="pushback.cs" t="Include" />
           <e p="ScoreSystem.cs" t="Include" />
           <e p="Smacked.cs" t="Include" />
